@@ -1,17 +1,8 @@
 # Killfeed-Datapack
-A minecraft datapack that shows death messages for all mobs.
-## Installation
-Extract "Killfeed" zip file or folder into %appdata%\Roaming\ .minecraft\saves\WORLDNAME\datapacks
-## Links
-* [Killfeed on Planetminecraft](https://www.planetminecraft.com/mod/announcer-kill-feed/)
-* [Killfeed on CurseForge](https://www.curseforge.com/minecraft/customization/killfeed)
-
-## added death messages
-different death messages for a uppcoming datapack version.
-
-message system:
-[player] + [death word] + [extra details] + [mob]
-
+Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datapack), where i utilize advancments to create more detailed death messages.
+#### message system:
+```[player] + [death word] + [extra details] + [mob]```
+## added death messages:
 ### Villagers
 ```
 @s murdered a Unemployed Villager
