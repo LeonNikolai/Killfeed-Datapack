@@ -1,0 +1,2 @@
+advancement revoke @s from killfeed:kills/villagers/plain/5/weaponsmith
+tellraw @a [{"selector":"@s"},{"text":" murdered a "},{"text":"Master Weaponsmith", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]

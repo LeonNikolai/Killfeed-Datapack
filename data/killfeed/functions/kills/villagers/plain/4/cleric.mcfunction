@@ -1,0 +1,2 @@
+advancement revoke @s from killfeed:kills/villagers/plain/4/cleric
+tellraw @a [{"selector":"@s"},{"text":" murdered a "},{"text":"Expert Cleric", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]

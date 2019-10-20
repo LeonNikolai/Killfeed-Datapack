@@ -1,0 +1,2 @@
+advancement revoke @s from killfeed:kills/zombies/villagers/1/toolsmith
+tellraw @a [{"selector":"@s"},{"text":" killed a "},{"text":"Zombie Toolsmith", "hoverEvent":{"action":"show_text","value":[{"text":"Zombie Villager"}]}}]

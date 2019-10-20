@@ -1,0 +1,2 @@
+advancement revoke @s from killfeed:kills/villagers/plain/2/mason
+tellraw @a [{"selector":"@s"},{"text":" murdered a "},{"text":"Apprentice Mason", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]

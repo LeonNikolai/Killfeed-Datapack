@@ -1,0 +1,15 @@
+{
+  "rewards": {
+      "function": "killfeed:kills/zombies/giant"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "giant"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+advancement revoke @s from killfeed:kills/villagers/plain/1/shepherd
+tellraw @a [{"selector":"@s"},{"text":" murdered a "},{"text":"Novice Shepherd", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]
