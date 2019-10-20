@@ -2,7 +2,7 @@
 Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datapack), where i utilize advancments to create more detailed death messages.
 #### message system:
 ```[player] + [death word] + [extra details] + [mob]```
-# NEW death messages:
+# NEW death messages (so far in dev):
 ### Villagers
 ```
 @s murdered a Unemployed Villager
