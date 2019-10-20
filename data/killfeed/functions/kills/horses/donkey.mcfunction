@@ -1,2 +1,2 @@
-advancement revoke @s only killfeed:kills/horses/mule
-tellraw @a [{"selector":"@s"},{"text":" killed a "},{"text":"mule"}]
+advancement revoke @s only killfeed:kills/horses/donkey
+tellraw @a [{"selector":"@s"},{"text":" killed a "},{"text":"Donkey"}]

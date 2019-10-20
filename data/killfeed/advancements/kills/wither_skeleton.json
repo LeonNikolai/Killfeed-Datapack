@@ -1,13 +1,13 @@
 {
   "rewards": {
-      "function": "killfeed:kills/skeleton"
+      "function": "killfeed:kills/wither_skeleton"
   },
   "criteria": {
     "kill": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "skeleton"
+          "type": "wither_skeleton"
         },
         "killing_blow": {
           "is_projectile": "false"

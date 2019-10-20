@@ -1,13 +1,17 @@
 {
   "rewards": {
-      "function": "killfeed:kills/skeleton"
+    "function": "killfeed:kills/horses/baby/horse.1030"
   },
   "criteria": {
     "kill": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "skeleton"
+          "type": "horse",
+          "nbt": "{Variant:1030}",
+          "flags": {
+            "is_baby": true
+          }
         },
         "killing_blow": {
           "is_projectile": "false"

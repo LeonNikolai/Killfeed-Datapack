@@ -1,13 +1,16 @@
 {
   "rewards": {
-      "function": "killfeed:kills/skeleton"
+      "function": "killfeed:kills/horses/baby/skeleton_horse"
   },
   "criteria": {
     "kill": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "skeleton"
+          "type": "skeleton_horse",
+          "flags": {
+            "is_baby": true
+          }
         },
         "killing_blow": {
           "is_projectile": "false"

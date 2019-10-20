@@ -1,13 +1,17 @@
 {
   "rewards": {
-      "function": "killfeed:kills/skeleton"
+      "function": "killfeed:kills/lamas/2.trader"
   },
   "criteria": {
     "kill": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "skeleton"
+          "type": "trader_llama",
+          "nbt": "{Variant:2}",
+          "flags": {
+            "is_baby": false
+        }
         },
         "killing_blow": {
           "is_projectile": "false"

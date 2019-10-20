@@ -1,13 +1,13 @@
 {
   "rewards": {
-      "function": "killfeed:kills/skeleton"
+      "function": "killfeed:kills/stray"
   },
   "criteria": {
     "kill": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "skeleton"
+          "type": "stray"
         },
         "killing_blow": {
           "is_projectile": "false"
