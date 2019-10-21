@@ -1,2 +1,2 @@
-advancement revoke @s from killfeed:kills/farm/bee
+advancement revoke @s only killfeed:kills/farm/bee
 tellraw @a [{"selector":"@s"},{"text":" squashed a "},{"text":"Bee"}]

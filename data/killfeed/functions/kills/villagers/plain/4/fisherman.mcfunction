@@ -1,2 +1,2 @@
-advancement revoke @s from killfeed:kills/villagers/plain/4/fisherman
+advancement revoke @s only killfeed:kills/villagers/plain/4/fisherman
 tellraw @a [{"selector":"@s"},{"text":" murdered a "},{"text":"Expert Fisherman", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]

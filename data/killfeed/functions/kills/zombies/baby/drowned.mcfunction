@@ -1,2 +1,2 @@
-advancement revoke @s from killfeed:kills/zombies/baby/drowned
+advancement revoke @s only killfeed:kills/zombies/baby/drowned
 tellraw @a [{"selector":"@s"},{"text":" killed a "},{"text":"Baby Drowned"}]

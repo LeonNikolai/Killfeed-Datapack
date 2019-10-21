@@ -1,2 +1,2 @@
-advancement revoke @s from killfeed:kills/zombies/villagers/1/butcher
+advancement revoke @s only killfeed:kills/zombies/villagers/1/butcher
 tellraw @a [{"selector":"@s"},{"text":" killed a "},{"text":"Zombie Butcher", "hoverEvent":{"action":"show_text","value":[{"text":"Zombie Villager"}]}}]

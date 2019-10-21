@@ -1,2 +1,2 @@
-advancement revoke @s from killfeed:kills/villagers/plain/1/nitwit
+advancement revoke @s only killfeed:kills/villagers/plain/1/nitwit
 tellraw @a [{"selector":"@s"},{"text":" murdered a "},{"text":"Nitwit", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]

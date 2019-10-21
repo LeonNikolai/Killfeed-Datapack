@@ -1,2 +1,2 @@
-advancement revoke @s from killfeed:kills/villagers/plain/4/cartographer
+advancement revoke @s only killfeed:kills/villagers/plain/4/cartographer
 tellraw @a [{"selector":"@s"},{"text":" murdered a "},{"text":"Expert Cartographer", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]

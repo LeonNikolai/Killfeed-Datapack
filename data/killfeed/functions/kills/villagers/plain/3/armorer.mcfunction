@@ -1,2 +1,2 @@
-advancement revoke @s from killfeed:kills/villagers/plain/3/armorer
+advancement revoke @s only killfeed:kills/villagers/plain/3/armorer
 tellraw @a [{"selector":"@s"},{"text":" murdered a "},{"text":"Journeyman Armoerer", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]
