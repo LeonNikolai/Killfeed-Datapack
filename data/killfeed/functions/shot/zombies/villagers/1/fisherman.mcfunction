@@ -1,0 +1,2 @@
+advancement revoke @s only killfeed:shot/zombies/villagers/1/fisherman
+tellraw @a [{"selector":"@s"},{"text":" shot a "},{"text":"Zombie Fisherman", "hoverEvent":{"action":"show_text","value":[{"text":"Zombie Villager"}]}}]

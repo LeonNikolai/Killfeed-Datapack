@@ -1,451 +1,471 @@
 # Killfeed-Datapack
-Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datapack), where i utilize advancments to create more detailed death messages.
-#### message system:
-```[player] + [death word] + [extra details] + [mob]```
-# NEW death messages (so far in dev):
+A datapack that add death messages for mobs. It does not only show the mobs name, but also details like appearance, age, type and profeesion. 
+### Features
+-	Death message for mobs killed by players
+-	Differentiates between
+	- Types of Tropical Fishes with offical names
+	- Baby and Adult mobs
+	- Villager proffesion
+	- Villager proffesion level
+	- Zombie Villager proffesions
+	- Horse breeds
+	- Cat breeds
+	- Sheep color
+	- Parot color
+	- Fox Types
+	- Rabbit types
+	- Slime and Magma Cube Sizes
+	- Llama Types and color
+	- Panda Types and color
+	- Kills and Projectile Kills
+### Working Versions
+-	1.5 snapshots
+-	1.14.x
+-	less than 1.13 not supported
+# New Death Messages:
+Not all messages are listed, but most are.
 ### Villagers
 ```
-@s murdered a Unemployed Villager
-@s murdered a Baby Villager
-@s murdered a Nitwit
-@s murdered a Novice Armorer
-@s murdered a Novice Butcher
-@s murdered a Novice Cartpgrapher
-@s murdered a Novice Cleric
-@s murdered a Novice Farmer
-@s murdered a Novice Fisherman
-@s murdered a Novice Fletcher
-@s murdered a Novice Leatherworker
-@s murdered a Novice Librarian
-@s murdered a Novice Mason
-@s murdered a Novice Shepherd
-@s murdered a Novice Toolsmith
-@s murdered a Novice Weaponsmith
-@s murdered a Apprentice Armorer
-@s murdered a Apprentice Butcher
-@s murdered a Apprentice Cartpgrapher
-@s murdered a Apprentice Cleric
-@s murdered a Apprentice Farmer
-@s murdered a Apprentice Fisherman
-@s murdered a Apprentice Fletcher
-@s murdered a Apprentice Leatherworker
-@s murdered a Apprentice Librarian
-@s murdered a Apprentice Mason
-@s murdered a Apprentice Shepherd
-@s murdered a Apprentice Toolsmith
-@s murdered a Apprentice Weaponsmith
-@s murdered a Journeyman Armorer
-@s murdered a Journeyman Butcher
-@s murdered a Journeyman Cartpgrapher
-@s murdered a Journeyman Cleric
-@s murdered a Journeyman Farmer
-@s murdered a Journeyman Fisherman
-@s murdered a Journeyman Fletcher
-@s murdered a Journeyman Leatherworker
-@s murdered a Journeyman Librarian
-@s murdered a Journeyman Mason
-@s murdered a Journeyman Shepherd
-@s murdered a Journeyman Toolsmith
-@s murdered a Journeyman Weaponsmith
-@s murdered a Expert Armorer
-@s murdered a Expert Butcher
-@s murdered a Expert Cartpgrapher
-@s murdered a Expert Cleric
-@s murdered a Expert Farmer
-@s murdered a Expert Fisherman
-@s murdered a Expert Fletcher
-@s murdered a Expert Leatherworker
-@s murdered a Expert Librarian
-@s murdered a Expert Mason
-@s murdered a Expert Shepherd
-@s murdered a Expert Toolsmith
-@s murdered a Expert Weaponsmith
-@s murdered a Master Armorer
-@s murdered a Master Butcher
-@s murdered a Master Cartpgrapher
-@s murdered a Master Cleric
-@s murdered a Master Farmer
-@s murdered a Master Fisherman
-@s murdered a Master Fletcher
-@s murdered a Master Leatherworker
-@s murdered a Master Librarian
-@s murdered a Master Mason
-@s murdered a Master Shepherd
-@s murdered a Master Toolsmith
-@s murdered a Master Weaponsmith
+[player] murdered a Unemployed Villager
+[player] murdered a Baby Villager
+[player] murdered a Nitwit
+[player] murdered a Novice Armorer
+[player] murdered a Novice Butcher
+[player] murdered a Novice Cartpgrapher
+[player] murdered a Novice Cleric
+[player] murdered a Novice Farmer
+[player] murdered a Novice Fisherman
+[player] murdered a Novice Fletcher
+[player] murdered a Novice Leatherworker
+[player] murdered a Novice Librarian
+[player] murdered a Novice Mason
+[player] murdered a Novice Shepherd
+[player] murdered a Novice Toolsmith
+[player] murdered a Novice Weaponsmith
+[player] murdered a Apprentice Armorer
+[player] murdered a Apprentice Butcher
+[player] murdered a Apprentice Cartpgrapher
+[player] murdered a Apprentice Cleric
+[player] murdered a Apprentice Farmer
+[player] murdered a Apprentice Fisherman
+[player] murdered a Apprentice Fletcher
+[player] murdered a Apprentice Leatherworker
+[player] murdered a Apprentice Librarian
+[player] murdered a Apprentice Mason
+[player] murdered a Apprentice Shepherd
+[player] murdered a Apprentice Toolsmith
+[player] murdered a Apprentice Weaponsmith
+[player] murdered a Journeyman Armorer
+[player] murdered a Journeyman Butcher
+[player] murdered a Journeyman Cartpgrapher
+[player] murdered a Journeyman Cleric
+[player] murdered a Journeyman Farmer
+[player] murdered a Journeyman Fisherman
+[player] murdered a Journeyman Fletcher
+[player] murdered a Journeyman Leatherworker
+[player] murdered a Journeyman Librarian
+[player] murdered a Journeyman Mason
+[player] murdered a Journeyman Shepherd
+[player] murdered a Journeyman Toolsmith
+[player] murdered a Journeyman Weaponsmith
+[player] murdered a Expert Armorer
+[player] murdered a Expert Butcher
+[player] murdered a Expert Cartpgrapher
+[player] murdered a Expert Cleric
+[player] murdered a Expert Farmer
+[player] murdered a Expert Fisherman
+[player] murdered a Expert Fletcher
+[player] murdered a Expert Leatherworker
+[player] murdered a Expert Librarian
+[player] murdered a Expert Mason
+[player] murdered a Expert Shepherd
+[player] murdered a Expert Toolsmith
+[player] murdered a Expert Weaponsmith
+[player] murdered a Master Armorer
+[player] murdered a Master Butcher
+[player] murdered a Master Cartpgrapher
+[player] murdered a Master Cleric
+[player] murdered a Master Farmer
+[player] murdered a Master Fisherman
+[player] murdered a Master Fletcher
+[player] murdered a Master Leatherworker
+[player] murdered a Master Librarian
+[player] murdered a Master Mason
+[player] murdered a Master Shepherd
+[player] murdered a Master Toolsmith
+[player] murdered a Master Weaponsmith
 ```
 ### Golems
 ```
-@s ruined a Snow Golem
-@s destroyed a Iron Golem
+[player] ruined a Snow Golem
+[player] destroyed a Iron Golem
 ```
-### zombies*
+### Zombies
 ```
-@s killed a Zombie
-@s killed a Husk
-@s killed a Drowned
-@s killed a Zombie Pigman
-@s killed a Zombie Villager
-@s killed a Zombie Baby Villager
-@s killed a Zombie Nitwit
-@s killed a Zombie Armorer
-@s killed a Zombie Butcher
-@s killed a Zombie Cartpgrapher
-@s killed a Zombie Cleric
-@s killed a Zombie Farmer
-@s killed a Zombie Fisherman
-@s killed a Zombie Fletcher
-@s killed a Zombie Leatherworker
-@s killed a Zombie Librarian
-@s killed a Zombie Mason
-@s killed a Zombie Shepherd
-@s killed a Zombie Toolsmith
-@s killed a Zombie Weaponsmith
+[player] killed a Zombie
+[player] killed a Husk
+[player] killed a Drowned
+[player] killed a Zombie Pigman
+[player] killed a Zombie Villager
+[player] killed a Zombie Baby Villager
+[player] killed a Zombie Nitwit
+[player] killed a Zombie Armorer
+[player] killed a Zombie Butcher
+[player] killed a Zombie Cartpgrapher
+[player] killed a Zombie Cleric
+[player] killed a Zombie Farmer
+[player] killed a Zombie Fisherman
+[player] killed a Zombie Fletcher
+[player] killed a Zombie Leatherworker
+[player] killed a Zombie Librarian
+[player] killed a Zombie Mason
+[player] killed a Zombie Shepherd
+[player] killed a Zombie Toolsmith
+[player] killed a Zombie Weaponsmith
 ```
-### baby zombies
+#### Baby Zombies
 ```
-@s killed a Baby Zombie
-@s killed a Baby Zombie Villager
-@s killed a Baby Zombie Pigman
-@s killed a Baby Husk
-@s killed a Baby Drowned
+[player] killed a Baby Zombie
+[player] killed a Baby Zombie Villager
+[player] killed a Baby Zombie Pigman
+[player] killed a Baby Husk
+[player] killed a Baby Drowned
 ```
-### illagers
+### Illagers
 ```
-@s killed a Evoker
-@s killed a Evoker Captain
-@s killed a Pillager
-@s killed a Pillager Captain
-@s killed a Vindicator
-@s killed a Vindicator Captain
-@s killed a Illusioner
-@s killed a Illusioner Captain
-@s killed a Ravager
-@s killed a Vex
-@s killed a Witch
+[player] killed a Evoker
+[player] killed a Evoker Captain
+[player] killed a Pillager
+[player] killed a Pillager Captain
+[player] killed a Vindicator
+[player] killed a Vindicator Captain
+[player] killed a Illusioner
+[player] killed a Illusioner Captain
+[player] killed a Ravager
+[player] killed a Vex
+[player] killed a Witch
 ```
-### slime
+### Slime
 ```
-@s split a Large Slime
-@s split a Medium Slime
-@s squashed a small Slime
-@s split a Large Magma Cube
-@s split a Medium Magma Cube
-@s squashed a small Magma Cube
+[player] split a Large Slime
+[player] split a Medium Slime
+[player] squashed a small Slime
+[player] split a Large Magma Cube
+[player] split a Medium Magma Cube
+[player] squashed a small Magma Cube
 ```
 ### Bosses
 ```
-@s defeated The Ender Dragon
-@s defeated The Wither
-@s defeated a Giant
-@s defeated a Elder Guardian
+[player] defeated The Ender Dragon
+[player] defeated The Wither
+[player] defeated a Giant
+[player] defeated a Elder Guardian
 ```
 ### Enemys
 ```
-@s squashed a Silvefish
-@s squashed a Endermite
-@s killed a Enderman
-@s killed a Ghast
-@s killed a Blaze
-@s killed a Guardian
-@s killed a Phantom
-@s killed a Shulker
-@s killed a Skeleton
-@s killed a Stray
-@s killed a Wither Skeleton
-@s killed a Creeper
-@s killed a Charged Creeper
+[player] squashed a Silvefish
+[player] squashed a Endermite
+[player] killed a Enderman
+[player] killed a Ghast
+[player] killed a Blaze
+[player] killed a Guardian
+[player] killed a Phantom
+[player] killed a Shulker
+[player] killed a Skeleton
+[player] killed a Stray
+[player] killed a Wither Skeleton
+[player] killed a Creeper
+[player] killed a Charged Creeper
 ```
-### spiders
+### Spiders
 ```
-@s killed a Spider
-@s killed a Cave Spider
-@s killed a Speedy Spider
-@s killed a Strong Spider
-@s killed a Regeneration Spider
-@s tracked down and killed a Invisibile Spider
+[player] killed a Spider
+[player] killed a Cave Spider
+[player] killed a Speedy Spider
+[player] killed a Strong Spider
+[player] killed a Regeneration Spider
+[player] tracked down and killed a Invisibile Spider
 ```
-### animals
+### Animals
 ```
-@s squashed a Bee
-@s killed a Bat
-@s killed a Wolf
-@s killed a Ocelot
-@s killed a Turtle
-@s killed a Red Fox
-@s killed a Snow Fox
-@s killed a Polar Bear
-@s slaughtered a Pig
-@s slaughtered a Cow
-@s slaughtered a Chicken
-@s slaughtered a Brown Mooshroom
-@s slaughtered a Red Mooshroom
+[player] squashed a Bee
+[player] killed a Bat
+[player] killed a Wolf
+[player] killed a Ocelot
+[player] killed a Turtle
+[player] killed a Red Fox
+[player] killed a Snow Fox
+[player] killed a Polar Bear
+[player] slaughtered a Pig
+[player] slaughtered a Cow
+[player] slaughtered a Chicken
+[player] slaughtered a Brown Mooshroom
+[player] slaughtered a Red Mooshroom
 ```
-### baby animals
+#### Baby Animals
 ```
-@s squashed a Baby Bee
-@s killed a Wolf Pup
-@s killed a Turtle Hatchling
-@s killed a Ocelot Kitten
-@s killed a Red Fox Cub
-@s killed a Snow Fox Cub
-@s killed a Polar Bear Cub
-@s killed a Piglet
-@s killed a Calf
-@s killed a Chick
-@s killed a Brown Baby Mooshroom
-@s killed a Red Baby Mooshroom
+[player] squashed a Baby Bee
+[player] killed a Wolf Pup
+[player] killed a Turtle Hatchling
+[player] killed a Ocelot Kitten
+[player] killed a Red Fox Cub
+[player] killed a Snow Fox Cub
+[player] killed a Polar Bear Cub
+[player] killed a Piglet
+[player] killed a Calf
+[player] killed a Chick
+[player] killed a Brown Baby Mooshroom
+[player] killed a Red Baby Mooshroom
 ```
 ### Llamas
 ```
-@s killed a Creamy Trader Llama
-@s killed a Brown Trader Llama
-@s killed a White Trader Llama
-@s killed a Gray Trader Llama
-@s killed a Creamy Llama
-@s killed a Brown Llama
-@s killed a White Llama
-@s killed a Gray Llama
+[player] killed a Creamy Trader Llama
+[player] killed a Brown Trader Llama
+[player] killed a White Trader Llama
+[player] killed a Gray Trader Llama
+[player] killed a Creamy Llama
+[player] killed a Brown Llama
+[player] killed a White Llama
+[player] killed a Gray Llama
 ```
-### baby Llamas
+#### Baby Llamas
 ```
-@s killed a Creamy Trader Cria
-@s killed a Brown Trader Cria
-@s killed a White Trader Cria
-@s killed a Gray Trader Cria
-@s killed a Creamy Cria
-@s killed a Brown Cria
-@s killed a White Cria
-@s killed a Gray Cria
+[player] killed a Creamy Trader Cria
+[player] killed a Brown Trader Cria
+[player] killed a White Trader Cria
+[player] killed a Gray Trader Cria
+[player] killed a Creamy Cria
+[player] killed a Brown Cria
+[player] killed a White Cria
+[player] killed a Gray Cria
 ```
 ### Rabbits
 ```
-@s slaughtered a Gold Rabbit
-@s slaughtered a Brown Rabbit
-@s slaughtered a White Rabbit
-@s slaughtered a Black Rabbit
-@s slaughtered a Black and White Rabbit
-@s slaughtered a Salt and Pepper Rabbit
-@s defeated The Killer Bunny
-@s killed Toast,the rabbit of twitter user @xyZenTV
+[player] slaughtered a Gold Rabbit
+[player] slaughtered a Brown Rabbit
+[player] slaughtered a White Rabbit
+[player] slaughtered a Black Rabbit
+[player] slaughtered a Black and White Rabbit
+[player] slaughtered a Salt and Pepper Rabbit
+[player] defeated The Killer Bunny
+[player] killed Toast,the rabbit of twitter user @xyZenTV
 ```
-### Baby Rabbits
+#### Baby Rabbits
 ```
-@s killed a Gold Kit
-@s killed a Brown Kit
-@s killed a White Kit
-@s killed a Black Kit
-@s killed a Black and White Kit
-@s killed a Salt and Pepper Kit
-@s defeated The Killer Kit
-@s killed Baby Toast,the rabbit of twitter user @xyZenTV
+[player] killed a Gold Kit
+[player] killed a Brown Kit
+[player] killed a White Kit
+[player] killed a Black Kit
+[player] killed a Black and White Kit
+[player] killed a Salt and Pepper Kit
+[player] defeated The Killer Kit
+[player] killed Baby Toast,the rabbit of twitter user @xyZenTV
 ```
 ### Parrots
 ```
-@s killed a Red Parrot
-@s killed a Green Parrot
-@s killed a Blue Parrot
-@s killed a Cyan Parrot
-@s killed a Gray Parrot
+[player] killed a Red Parrot
+[player] killed a Green Parrot
+[player] killed a Blue Parrot
+[player] killed a Cyan Parrot
+[player] killed a Gray Parrot
 ```
 ### Fish
 ```
-@s killed a Dolphin
-@s killed a Cod
-@s killed a Squid
-@s killed a Salmon
-@s killed a Pufferfish
-@s killed a Tropical Fish
-
-@s killed a Clownfish
-@s killed a Tomato Clownfish
-@s killed a Red Snapper
-@s killed a Red Cichlid
-@s killed a Cichlid
-@s killed a Butterflyfish
-@s killed a Angelfish
-@s killed a Cotton Candy Betta
-@s killed a Blue Dory
-@s killed a Threadfin
-@s killed a Goatfish
-@s killed a Yellow Stripey
-@s killed a Dottyback
-@s killed a Parrotfish
-@s killed a Moorish Idol
-@s killed a White-Gray Dasher
-@s killed a White-Gray Brinely
-@s killed a White-Silver Sunstreak
-@s killed a Black Tang
-@s killed a Blue Tang
-@s killed a Anemone
-@s killed a Emperor Red Snapper
-@s killed a Red Lipped Blenny
+[player] killed a Dolphin
+[player] killed a Cod
+[player] killed a Squid
+[player] killed a Salmon
+[player] killed a Pufferfish
+[player] killed a Tropical Fish
+[player] killed a Clownfish
+[player] killed a Tomato Clownfish
+[player] killed a Red Snapper
+[player] killed a Red Cichlid
+[player] killed a Cichlid
+[player] killed a Butterflyfish
+[player] killed a Angelfish
+[player] killed a Cotton Candy Betta
+[player] killed a Blue Dory
+[player] killed a Threadfin
+[player] killed a Goatfish
+[player] killed a Yellow Stripey
+[player] killed a Dottyback
+[player] killed a Parrotfish
+[player] killed a Moorish Idol
+[player] killed a White-Gray Dasher
+[player] killed a White-Gray Brinely
+[player] killed a White-Silver Sunstreak
+[player] killed a Black Tang
+[player] killed a Blue Tang
+[player] killed a Anemone
+[player] killed a Emperor Red Snapper
+[player] killed a Red Lipped Blenny
 ```
 ### Sheep
 ```
-@s slaughtered a red Sheep
-@s slaughtered a gray Sheep
-@s slaughtered a blue Sheep
-@s slaughtered a cyan Sheep
-@s slaughtered a pink Sheep
-@s slaughtered a lime Sheep
-@s slaughtered a brown Sheep
-@s slaughtered a white Sheep
-@s slaughtered a green Sheep
-@s slaughtered a black Sheep
-@s slaughtered a yellow Sheep
-@s slaughtered a orange Sheep
-@s slaughtered a purple Sheep
-@s slaughtered a magenta Sheep
-@s slaughtered a light blue Sheep
-@s slaughtered a light gray Sheep
+[player] slaughtered a red Sheep
+[player] slaughtered a gray Sheep
+[player] slaughtered a blue Sheep
+[player] slaughtered a cyan Sheep
+[player] slaughtered a pink Sheep
+[player] slaughtered a lime Sheep
+[player] slaughtered a brown Sheep
+[player] slaughtered a white Sheep
+[player] slaughtered a green Sheep
+[player] slaughtered a black Sheep
+[player] slaughtered a yellow Sheep
+[player] slaughtered a orange Sheep
+[player] slaughtered a purple Sheep
+[player] slaughtered a magenta Sheep
+[player] slaughtered a light blue Sheep
+[player] slaughtered a light gray Sheep
 ```
-### Lambs
+#### Baby Sheep
 ```
-@s killed a red Lamb
-@s killed a gray Lamb
-@s killed a blue Lamb
-@s killed a cyan Lamb
-@s killed a lime Lamb
-@s killed a pink Lamb
-@s killed a white Lamb
-@s killed a black Lamb
-@s killed a brown Lamb
-@s killed a green Lamb
-@s killed a yellow Lamb
-@s killed a orange Lamb
-@s killed a purple Lamb
-@s killed a magenta Lamb
-@s killed a light blue Lamb
-@s killed a light gray Lamb
+[player] killed a red Lamb
+[player] killed a gray Lamb
+[player] killed a blue Lamb
+[player] killed a cyan Lamb
+[player] killed a lime Lamb
+[player] killed a pink Lamb
+[player] killed a white Lamb
+[player] killed a black Lamb
+[player] killed a brown Lamb
+[player] killed a green Lamb
+[player] killed a yellow Lamb
+[player] killed a orange Lamb
+[player] killed a purple Lamb
+[player] killed a magenta Lamb
+[player] killed a light blue Lamb
+[player] killed a light gray Lamb
 ```
 ### Pandas
 ```
-@s killed a Panda
-@s killed a Lazy Panda
-@s killed a Weak Panda
-@s killed a Brown Panda
-@s killed a Worried Panda
-@s killed a Playful Panda
-@s killed a Agressive Panda
+[player] killed a Panda
+[player] killed a Lazy Panda
+[player] killed a Weak Panda
+[player] killed a Brown Panda
+[player] killed a Worried Panda
+[player] killed a Playful Panda
+[player] killed a Agressive Panda
 ```
-### Baby Pandas
+#### Baby Pandas
 ```
-@s killed a Panda Cub
-@s killed a Lazy Panda Cub
-@s killed a Weak Panda Cub
-@s killed a Brown Panda Cub
-@s killed a Worried Panda Cub
-@s killed a Playful Panda Cub
-@s killed a Agressive Panda Cub
+[player] killed a Panda Cub
+[player] killed a Lazy Panda Cub
+[player] killed a Weak Panda Cub
+[player] killed a Brown Panda Cub
+[player] killed a Worried Panda Cub
+[player] killed a Playful Panda Cub
+[player] killed a Agressive Panda Cub
 ```
 ### Cats
 ```
-@s slew a Red Cat
-@s slew a Tabby Cat
-@s slew a Black Cat
-@s slew a White Cat
-@s slew a Tuxedo Cat
-@s slew a Calico Cat
-@s slew a Jellie Cat
-@s slew a Persian Cat
-@s slew a Siamese Cat
-@s slew a Ragdoll Cat
-@s slew a British Shorthair Cat
+[player] slew a Red Cat
+[player] slew a Tabby Cat
+[player] slew a Black Cat
+[player] slew a White Cat
+[player] slew a Tuxedo Cat
+[player] slew a Calico Cat
+[player] slew a Jellie Cat
+[player] slew a Persian Cat
+[player] slew a Siamese Cat
+[player] slew a Ragdoll Cat
+[player] slew a British Shorthair Cat
 ```
-### Baby Cats
+#### Baby Cats
 ```
-@s slew a Red Kitten
-@s slew a Tabby Kitten
-@s slew a White Kitten
-@s slew a Black Kitten
-@s slew a Tuxedo Kitten
-@s slew a Calico Kitten
-@s slew a Jellie Kitten
-@s slew a Siamese Kitten
-@s slew a Persian Kitten
-@s slew a Ragdoll Kitten
-@s slew a British Shorthair Kitten
+[player] slew a Red Kitten
+[player] slew a Tabby Kitten
+[player] slew a White Kitten
+[player] slew a Black Kitten
+[player] slew a Tuxedo Kitten
+[player] slew a Calico Kitten
+[player] slew a Jellie Kitten
+[player] slew a Siamese Kitten
+[player] slew a Persian Kitten
+[player] slew a Ragdoll Kitten
+[player] slew a British Shorthair Kitten
 ```
 ### Horses
 ```
-@s killed a Mule
-@s killed a Donkey
-@s killed a Zombie Horse
-@s killed a Skeleton Horse
-@s killed a White Horse with white stockings
-@s killed a White Horse with white spots
-@s killed a White Horse with white dots
-@s killed a White Horse with black dots
-@s killed a Creamy Horse
-@s killed a Creamy Horse with white spots
-@s killed a Creamy Horse with white stockings
-@s killed a Creamy Horse with white dots
-@s killed a Creamy Horse with black dots
-@s killed a Chestnut Horse
-@s killed a Chestnut Horse with white stockings
-@s killed a Chestnut Horse with white spots
-@s killed a Chestnut Horse with white dots
-@s killed a Chestnut Horse with black dots
-@s killed a Brown Horse
-@s killed a Brown Horse with white stockings
-@s killed a Brown Horse with white spots
-@s killed a Brown Horse with white dots
-@s killed a Brown Horse with black dots
-@s killed a Black Horse
-@s killed a Black Horse with white stockings
-@s killed a Black Horse with white spots
-@s killed a Black Horse with white dots
-@s killed a Black Horse with black dots
-@s killed a Gray Horse
-@s killed a Gray Horse with white stockings
-@s killed a Gray Horse with white spots
-@s killed a Gray Horse with white dots
-@s killed a Gray Horse with black dots
-@s killed a Dark Brown Horse
-@s killed a Dark Brown Horse with white stockings
-@s killed a Dark Brown Horse with white spots
-@s killed a Dark Brown Horse with white dots
-@s killed a Dark Brown Horse with black dots
+[player] killed a Mule
+[player] killed a Donkey
+[player] killed a Zombie Horse
+[player] killed a Skeleton Horse
+[player] killed a White Horse with white stockings
+[player] killed a White Horse with white spots
+[player] killed a White Horse with white dots
+[player] killed a White Horse with black dots
+[player] killed a Creamy Horse
+[player] killed a Creamy Horse with white spots
+[player] killed a Creamy Horse with white stockings
+[player] killed a Creamy Horse with white dots
+[player] killed a Creamy Horse with black dots
+[player] killed a Chestnut Horse
+[player] killed a Chestnut Horse with white stockings
+[player] killed a Chestnut Horse with white spots
+[player] killed a Chestnut Horse with white dots
+[player] killed a Chestnut Horse with black dots
+[player] killed a Brown Horse
+[player] killed a Brown Horse with white stockings
+[player] killed a Brown Horse with white spots
+[player] killed a Brown Horse with white dots
+[player] killed a Brown Horse with black dots
+[player] killed a Black Horse
+[player] killed a Black Horse with white stockings
+[player] killed a Black Horse with white spots
+[player] killed a Black Horse with white dots
+[player] killed a Black Horse with black dots
+[player] killed a Gray Horse
+[player] killed a Gray Horse with white stockings
+[player] killed a Gray Horse with white spots
+[player] killed a Gray Horse with white dots
+[player] killed a Gray Horse with black dots
+[player] killed a Dark Brown Horse
+[player] killed a Dark Brown Horse with white stockings
+[player] killed a Dark Brown Horse with white spots
+[player] killed a Dark Brown Horse with white dots
+[player] killed a Dark Brown Horse with black dots
 ```
-### Foals
+#### Baby Horses
 ```
-@s killed a Mule Foal
-@s killed a Donkey Foal
-@s killed a Zombie Foal
-@s killed a Skeleton Foal
-@s killed a White Foal with white stockings
-@s killed a White Foal with white spots
-@s killed a White Foal with white dots
-@s killed a White Foal with black dots
-@s killed a Creamy Foal
-@s killed a Creamy Foal with white spots
-@s killed a Creamy Foal with white stockings
-@s killed a Creamy Foal with white dots
-@s killed a Creamy Foal with black dots
-@s killed a Chestnut Foal
-@s killed a Chestnut Foal with white stockings
-@s killed a Chestnut Foal with white spots
-@s killed a Chestnut Foal with white dots
-@s killed a Chestnut Foal with black dots
-@s killed a Brown Foal
-@s killed a Brown Foal with white stockings
-@s killed a Brown Foal with white spots
-@s killed a Brown Foal with white dots
-@s killed a Brown Foal with black dots
-@s killed a Black Foal
-@s killed a Black Foal with white stockings
-@s killed a Black Foal with white spots
-@s killed a Black Foal with white dots
-@s killed a Black Foal with black dots
-@s killed a Gray Foal
-@s killed a Gray Foal with white stockings
-@s killed a Gray Foal with white spots
-@s killed a Gray Foal with white dots
-@s killed a Gray Foal with black dots
-@s killed a Dark Brown Foal
-@s killed a Dark Brown Foal with white stockings
-@s killed a Dark Brown Foal with white spots
-@s killed a Dark Brown Foal with white dots
-@s killed a Dark Brown Foal with black dots
+[player] killed a Mule Foal
+[player] killed a Donkey Foal
+[player] killed a Zombie Foal
+[player] killed a Skeleton Foal
+[player] killed a White Foal with white stockings
+[player] killed a White Foal with white spots
+[player] killed a White Foal with white dots
+[player] killed a White Foal with black dots
+[player] killed a Creamy Foal
+[player] killed a Creamy Foal with white spots
+[player] killed a Creamy Foal with white stockings
+[player] killed a Creamy Foal with white dots
+[player] killed a Creamy Foal with black dots
+[player] killed a Chestnut Foal
+[player] killed a Chestnut Foal with white stockings
+[player] killed a Chestnut Foal with white spots
+[player] killed a Chestnut Foal with white dots
+[player] killed a Chestnut Foal with black dots
+[player] killed a Brown Foal
+[player] killed a Brown Foal with white stockings
+[player] killed a Brown Foal with white spots
+[player] killed a Brown Foal with white dots
+[player] killed a Brown Foal with black dots
+[player] killed a Black Foal
+[player] killed a Black Foal with white stockings
+[player] killed a Black Foal with white spots
+[player] killed a Black Foal with white dots
+[player] killed a Black Foal with black dots
+[player] killed a Gray Foal
+[player] killed a Gray Foal with white stockings
+[player] killed a Gray Foal with white spots
+[player] killed a Gray Foal with white dots
+[player] killed a Gray Foal with black dots
+[player] killed a Dark Brown Foal
+[player] killed a Dark Brown Foal with white stockings
+[player] killed a Dark Brown Foal with white spots
+[player] killed a Dark Brown Foal with white dots
+[player] killed a Dark Brown Foal with black dots
 ```

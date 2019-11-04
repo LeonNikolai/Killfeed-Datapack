@@ -1,0 +1,2 @@
+advancement revoke @s only killfeed:shot/villagers/4/fletcher
+tellraw @a [{"selector":"@s"},{"text":" shot and murdered a "},{"text":"Expert Fletcher", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]

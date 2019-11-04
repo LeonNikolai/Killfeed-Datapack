@@ -1,0 +1,21 @@
+{
+  "rewards": {
+    "function": "killfeed:shot/villagers/1/cleric"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "villager",
+          "nbt": "{VillagerData:{profession: 'minecraft:cleric',level: 1}}",
+          "flags": {
+            "is_baby": false
+        }},
+      "killing_blow": {
+        "is_projectile": "true"
+      }
+    }
+  }
+}
+}
