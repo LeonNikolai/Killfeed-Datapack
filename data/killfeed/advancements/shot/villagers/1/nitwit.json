@@ -8,7 +8,7 @@
       "conditions": {
         "entity": {
           "type": "villager",
-          "nbt": "{VillagerData:{profession: 'minecraft:nitwit',type: 'minecraft:plains'}}"
+          "nbt": "{VillagerData:{profession: 'minecraft:nitwit'}}"
       },
       "killing_blow": {
         "is_projectile": "true"

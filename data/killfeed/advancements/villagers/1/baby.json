@@ -8,7 +8,6 @@
       "conditions": {
         "entity": {
           "type": "villager",
-          "nbt": "{VillagerData:{type: 'minecraft:plains'}}",
           "flags": {
             "is_baby": true
         }

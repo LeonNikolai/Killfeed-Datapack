@@ -8,10 +8,7 @@
       "conditions": {
         "entity": {
           "type": "villager",
-          "nbt": "{VillagerData:{profession: 'minecraft:farmer',level: 1}}",
-          "flags": {
-            "is_baby": false
-        }},
+          "nbt": "{VillagerData:{profession: 'minecraft:farmer',level: 1}}"},
       "killing_blow": {
         "is_projectile": "false"
       }

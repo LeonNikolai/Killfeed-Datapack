@@ -8,7 +8,7 @@
       "conditions": {
         "entity": {
           "type": "villager",
-          "nbt": "{VillagerData:{profession:'minecraft:none',type: 'minecraft:plains'}}",
+          "nbt": "{VillagerData:{profession:'minecraft:none'}}",
         "flags": {
             "is_baby": false
         }},
