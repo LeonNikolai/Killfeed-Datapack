@@ -184,15 +184,15 @@ Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datap
 ### baby animals
 ```
 @s squashed a Baby Bee
-@s killed a Baby Wolf
-@s killed a Baby Turtle
-@s killed a Baby Ocelot
-@s killed a Baby Red Fox
-@s killed a Baby Snow Fox
-@s killed a Baby Polar Bear
-@s killed a Baby Pig
-@s killed a Baby Cow
-@s killed a Baby Chicken
+@s killed a Wolf Pup
+@s killed a Turtle Hatchling
+@s killed a Ocelot Kitten
+@s killed a Red Fox Cub
+@s killed a Snow Fox Cub
+@s killed a Polar Bear Cub
+@s killed a Piglet
+@s killed a Calf
+@s killed a Chick
 @s killed a Brown Baby Mooshroom
 @s killed a Red Baby Mooshroom
 ```
@@ -209,14 +209,14 @@ Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datap
 ```
 ### baby Llamas
 ```
-@s killed a Creamy Baby Trader Llama
-@s killed a Brown Baby Trader Llama
-@s killed a White Baby Trader Llama
-@s killed a Gray Baby Trader Llama
-@s killed a Creamy Baby Llama
-@s killed a Brown Baby Llama
-@s killed a White Baby Llama
-@s killed a Gray Baby Llama
+@s killed a Creamy Trader Cria
+@s killed a Brown Trader Cria
+@s killed a White Trader Cria
+@s killed a Gray Trader Cria
+@s killed a Creamy Cria
+@s killed a Brown Cria
+@s killed a White Cria
+@s killed a Gray Cria
 ```
 ### Rabbits
 ```
@@ -231,13 +231,13 @@ Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datap
 ```
 ### Baby Rabbits
 ```
-@s killed a Gold Baby Rabbit
-@s killed a Brown Baby Rabbit
-@s killed a White Baby Rabbit
-@s killed a Black Baby Rabbit
-@s killed a Black and White Baby Rabbit
-@s killed a Salt and Pepper Baby Rabbit
-@s defeated The Killer Baby Bunny
+@s killed a Gold Kit
+@s killed a Brown Kit
+@s killed a White Kit
+@s killed a Black Kit
+@s killed a Black and White Kit
+@s killed a Salt and Pepper Kit
+@s defeated The Killer Kit
 @s killed Baby Toast,the rabbit of twitter user @xyZenTV
 ```
 ### Parrots
@@ -300,26 +300,26 @@ Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datap
 @s slaughtered a light blue Sheep
 @s slaughtered a light gray Sheep
 ```
-### baby sheeps
+### Lambs
 ```
-@s killed a red Baby Sheep
-@s killed a gray Baby Sheep
-@s killed a blue Baby Sheep
-@s killed a cyan Baby Sheep
-@s killed a lime Baby Sheep
-@s killed a pink Baby Sheep
-@s killed a white Baby Sheep
-@s killed a black Baby Sheep
-@s killed a brown Baby Sheep
-@s killed a green Baby Sheep
-@s killed a yellow Baby Sheep
-@s killed a orange Baby Sheep
-@s killed a purple Baby Sheep
-@s killed a magenta Baby Sheep
-@s killed a light blue Baby Sheep
-@s killed a light Baby gray Sheep
+@s killed a red Lamb
+@s killed a gray Lamb
+@s killed a blue Lamb
+@s killed a cyan Lamb
+@s killed a lime Lamb
+@s killed a pink Lamb
+@s killed a white Lamb
+@s killed a black Lamb
+@s killed a brown Lamb
+@s killed a green Lamb
+@s killed a yellow Lamb
+@s killed a orange Lamb
+@s killed a purple Lamb
+@s killed a magenta Lamb
+@s killed a light blue Lamb
+@s killed a light gray Lamb
 ```
-### pandas
+### Pandas
 ```
 @s killed a Panda
 @s killed a Lazy Panda
@@ -329,17 +329,17 @@ Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datap
 @s killed a Playful Panda
 @s killed a Agressive Panda
 ```
-### baby pandas
+### Baby Pandas
 ```
-@s killed a Baby Panda
-@s killed a Lazy Baby Panda
-@s killed a Weak Baby Panda
-@s killed a Brown Baby Panda
-@s killed a Worried Baby Panda
-@s killed a Playful Baby Panda
-@s killed a Agressive Baby Panda
+@s killed a Panda Cub
+@s killed a Lazy Panda Cub
+@s killed a Weak Panda Cub
+@s killed a Brown Panda Cub
+@s killed a Worried Panda Cub
+@s killed a Playful Panda Cub
+@s killed a Agressive Panda Cub
 ```
-### cats
+### Cats
 ```
 @s slew a Red Cat
 @s slew a Tabby Cat
@@ -353,7 +353,7 @@ Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datap
 @s slew a Ragdoll Cat
 @s slew a British Shorthair Cat
 ```
-### baby cats
+### Baby Cats
 ```
 @s slew a Red Kitten
 @s slew a Tabby Kitten
@@ -408,44 +408,44 @@ Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datap
 @s killed a Dark Brown Horse with white dots
 @s killed a Dark Brown Horse with black dots
 ```
-### Baby Horses
+### Foals
 ```
-@s killed a Baby Mule
-@s killed a Baby Donkey
-@s killed a Baby Zombie Horse
-@s killed a Baby Skeleton Horse
-@s killed a White Baby Horse with white stockings
-@s killed a White Baby Horse with white spots
-@s killed a White Baby Horse with white dots
-@s killed a White Baby Horse with black dots
-@s killed a Creamy Baby Horse
-@s killed a Creamy Baby Horse with white spots
-@s killed a Creamy Baby Horse with white stockings
-@s killed a Creamy Baby Horse with white dots
-@s killed a Creamy Baby Horse with black dots
-@s killed a Chestnut Baby Horse
-@s killed a Chestnut Baby Horse with white stockings
-@s killed a Chestnut Baby Horse with white spots
-@s killed a Chestnut Baby Horse with white dots
-@s killed a Chestnut Baby Horse with black dots
-@s killed a Brown Baby Horse
-@s killed a Brown Baby Horse with white stockings
-@s killed a Brown Baby Horse with white spots
-@s killed a Brown Baby Horse with white dots
-@s killed a Brown Baby Horse with black dots
-@s killed a Black Baby Horse
-@s killed a Black Baby Horse with white stockings
-@s killed a Black Baby Horse with white spots
-@s killed a Black Baby Horse with white dots
-@s killed a Black Baby Horse with black dots
-@s killed a Gray Baby Horse
-@s killed a Gray Baby Horse with white stockings
-@s killed a Gray Baby Horse with white spots
-@s killed a Gray Baby Horse with white dots
-@s killed a Gray Baby Horse with black dots
-@s killed a Dark Brown Baby Horse
-@s killed a Dark Brown Baby Horse with white stockings
-@s killed a Dark Brown Baby Horse with white spots
-@s killed a Dark Brown Baby Horse with white dots
-@s killed a Dark Brown Baby Horse with black dots
+@s killed a Mule Foal
+@s killed a Donkey Foal
+@s killed a Zombie Foal
+@s killed a Skeleton Foal
+@s killed a White Foal with white stockings
+@s killed a White Foal with white spots
+@s killed a White Foal with white dots
+@s killed a White Foal with black dots
+@s killed a Creamy Foal
+@s killed a Creamy Foal with white spots
+@s killed a Creamy Foal with white stockings
+@s killed a Creamy Foal with white dots
+@s killed a Creamy Foal with black dots
+@s killed a Chestnut Foal
+@s killed a Chestnut Foal with white stockings
+@s killed a Chestnut Foal with white spots
+@s killed a Chestnut Foal with white dots
+@s killed a Chestnut Foal with black dots
+@s killed a Brown Foal
+@s killed a Brown Foal with white stockings
+@s killed a Brown Foal with white spots
+@s killed a Brown Foal with white dots
+@s killed a Brown Foal with black dots
+@s killed a Black Foal
+@s killed a Black Foal with white stockings
+@s killed a Black Foal with white spots
+@s killed a Black Foal with white dots
+@s killed a Black Foal with black dots
+@s killed a Gray Foal
+@s killed a Gray Foal with white stockings
+@s killed a Gray Foal with white spots
+@s killed a Gray Foal with white dots
+@s killed a Gray Foal with black dots
+@s killed a Dark Brown Foal
+@s killed a Dark Brown Foal with white stockings
+@s killed a Dark Brown Foal with white spots
+@s killed a Dark Brown Foal with white dots
+@s killed a Dark Brown Foal with black dots
 ```
