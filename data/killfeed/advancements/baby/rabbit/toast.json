@@ -1,0 +1,22 @@
+{
+  "rewards": {
+      "function": "killfeed:baby/rabbit/toast"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "rabbit",
+          "nbt": "{CustomName:'{\"text\":\"Toast\"}'}",
+          "flags": {
+            "is_baby": true
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "false"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "rewards": {
+      "function": "killfeed:slime/1.magma"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "magma_cube",
+          "nbt": "{Size:1}"
+        },
+        "killing_blow": {
+          "is_projectile": "false"
+        }
+      }
+    }
+  }
+}

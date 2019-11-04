@@ -1,0 +1,22 @@
+{
+  "rewards": {
+      "function": "killfeed:baby/lamas/2"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "llama",
+          "nbt": "{Variant:2}",
+          "flags": {
+            "is_baby": true
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "false"
+        }
+      }
+    }
+  }
+}

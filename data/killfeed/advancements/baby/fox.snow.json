@@ -1,0 +1,22 @@
+{
+  "rewards": {
+      "function": "killfeed:baby/fox.snow"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+		  "type": "fox",
+		  "nbt": "{Type:'snow'}",
+		  "flags": {
+            "is_baby": true
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "false"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "rewards": {
+      "function": "killfeed:cow"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cow",
+          "flags": {
+            "is_baby": false
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "false"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "rewards": {
+      "function": "killfeed:pandas/panda.brown"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "panda",
+          "nbt": "{MainGene:brown, HiddenGene:brown}",
+          "flags": {
+            "is_baby": false
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "false"
+        }
+      }
+    }
+  }
+}

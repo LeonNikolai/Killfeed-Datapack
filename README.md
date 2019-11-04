@@ -74,47 +74,16 @@ Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datap
 @s murdered a Master Toolsmith
 @s murdered a Master Weaponsmith
 ```
-
-### slime
+### Golems
 ```
-@s split a Large Slime
-@s split a Medium Slime
-@s squashed a small Slime
-```
-
-### farm animals
-```
-@s slaughtered a Pig
-@s slaughtered a Cow
-@s slaughtered a Chicken
-@s slaughtered a Brown Mooshroom
-@s slaughtered a Red Mooshroom
-```
-### sheeps
-```
-@s slaughtered a white Sheep
-@s slaughtered a black Sheep
-@s slaughtered a light gray Sheep
-@s slaughtered a gray Sheep
-@s slaughtered a red Sheep
-@s slaughtered a green Sheep
-@s slaughtered a blue Sheep
-@s slaughtered a light blue Sheep
-@s slaughtered a cyan Sheep
-@s slaughtered a magenta Sheep
-@s slaughtered a yellow Sheep
-@s slaughtered a orange Sheep
-@s slaughtered a brown Sheep
-@s slaughtered a purple Sheep
-@s slaughtered a pink Sheep
-@s slaughtered a lime Sheep
+@s ruined a Snow Golem
+@s destroyed a Iron Golem
 ```
 ### zombies*
 ```
 @s killed a Zombie
 @s killed a Husk
 @s killed a Drowned
-@s defeated a Giant
 @s killed a Zombie Pigman
 @s killed a Zombie Villager
 @s killed a Zombie Baby Villager
@@ -133,7 +102,7 @@ Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datap
 @s killed a Zombie Toolsmith
 @s killed a Zombie Weaponsmith
 ```
-### baby zombies*
+### baby zombies
 ```
 @s killed a Baby Zombie
 @s killed a Baby Zombie Villager
@@ -141,66 +110,269 @@ Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datap
 @s killed a Baby Husk
 @s killed a Baby Drowned
 ```
+### illagers
+```
+@s killed a Evoker
+@s killed a Evoker Captain
+@s killed a Pillager
+@s killed a Pillager Captain
+@s killed a Vindicator
+@s killed a Vindicator Captain
+@s killed a Illusioner
+@s killed a Illusioner Captain
+@s killed a Ravager
+@s killed a Vex
+@s killed a Witch
+```
+### slime
+```
+@s split a Large Slime
+@s split a Medium Slime
+@s squashed a small Slime
+@s split a Large Magma Cube
+@s split a Medium Magma Cube
+@s squashed a small Magma Cube
+```
+### Bosses
+```
+@s defeated The Ender Dragon
+@s defeated The Wither
+@s defeated a Giant
+@s defeated a Elder Guardian
+```
+### Enemys
+```
+@s squashed a Silvefish
+@s squashed a Endermite
+@s killed a Enderman
+@s killed a Ghast
+@s killed a Blaze
+@s killed a Guardian
+@s killed a Phantom
+@s killed a Shulker
+@s killed a Skeleton
+@s killed a Stray
+@s killed a Wither Skeleton
+@s killed a Creeper
+@s killed a Charged Creeper
+```
 ### spiders
 ```
 @s killed a Spider
 @s killed a Cave Spider
 @s killed a Speedy Spider
-@s killed a Regeneration Spider
 @s killed a Strong Spider
+@s killed a Regeneration Spider
 @s tracked down and killed a Invisibile Spider
+```
+### animals
+```
+@s squashed a Bee
+@s killed a Bat
+@s killed a Wolf
+@s killed a Ocelot
+@s killed a Turtle
+@s killed a Red Fox
+@s killed a Snow Fox
+@s killed a Polar Bear
+@s slaughtered a Pig
+@s slaughtered a Cow
+@s slaughtered a Chicken
+@s slaughtered a Brown Mooshroom
+@s slaughtered a Red Mooshroom
+```
+### baby animals
+```
+@s squashed a Baby Bee
+@s killed a Baby Wolf
+@s killed a Baby Turtle
+@s killed a Baby Ocelot
+@s killed a Baby Red Fox
+@s killed a Baby Snow Fox
+@s killed a Baby Polar Bear
+@s killed a Baby Pig
+@s killed a Baby Cow
+@s killed a Baby Chicken
+@s killed a Brown Baby Mooshroom
+@s killed a Red Baby Mooshroom
+```
+### Llamas
+```
+@s killed a Creamy Trader Llama
+@s killed a Brown Trader Llama
+@s killed a White Trader Llama
+@s killed a Gray Trader Llama
+@s killed a Creamy Llama
+@s killed a Brown Llama
+@s killed a White Llama
+@s killed a Gray Llama
+```
+### baby Llamas
+```
+@s killed a Creamy Baby Trader Llama
+@s killed a Brown Baby Trader Llama
+@s killed a White Baby Trader Llama
+@s killed a Gray Baby Trader Llama
+@s killed a Creamy Baby Llama
+@s killed a Brown Baby Llama
+@s killed a White Baby Llama
+@s killed a Gray Baby Llama
+```
+### Rabbits
+```
+@s slaughtered a Gold Rabbit
+@s slaughtered a Brown Rabbit
+@s slaughtered a White Rabbit
+@s slaughtered a Black Rabbit
+@s slaughtered a Black and White Rabbit
+@s slaughtered a Salt and Pepper Rabbit
+@s defeated The Killer Bunny
+@s killed Toast,the rabbit of twitter user @xyZenTV
+```
+### Baby Rabbits
+```
+@s killed a Gold Baby Rabbit
+@s killed a Brown Baby Rabbit
+@s killed a White Baby Rabbit
+@s killed a Black Baby Rabbit
+@s killed a Black and White Baby Rabbit
+@s killed a Salt and Pepper Baby Rabbit
+@s defeated The Killer Baby Bunny
+@s killed Baby Toast,the rabbit of twitter user @xyZenTV
+```
+### Parrots
+```
+@s killed a Red Parrot
+@s killed a Green Parrot
+@s killed a Blue Parrot
+@s killed a Cyan Parrot
+@s killed a Gray Parrot
+```
+### Fish
+```
+@s killed a Dolphin
+@s killed a Cod
+@s killed a Squid
+@s killed a Salmon
+@s killed a Pufferfish
+@s killed a Tropical Fish
+
+@s killed a Clownfish
+@s killed a Tomato Clownfish
+@s killed a Red Snapper
+@s killed a Red Cichlid
+@s killed a Cichlid
+@s killed a Butterflyfish
+@s killed a Angelfish
+@s killed a Cotton Candy Betta
+@s killed a Blue Dory
+@s killed a Threadfin
+@s killed a Goatfish
+@s killed a Yellow Stripey
+@s killed a Dottyback
+@s killed a Parrotfish
+@s killed a Moorish Idol
+@s killed a White-Gray Dasher
+@s killed a White-Gray Brinely
+@s killed a White-Silver Sunstreak
+@s killed a Black Tang
+@s killed a Blue Tang
+@s killed a Anemone
+@s killed a Emperor Red Snapper
+@s killed a Red Lipped Blenny
+```
+### Sheep
+```
+@s slaughtered a red Sheep
+@s slaughtered a gray Sheep
+@s slaughtered a blue Sheep
+@s slaughtered a cyan Sheep
+@s slaughtered a pink Sheep
+@s slaughtered a lime Sheep
+@s slaughtered a brown Sheep
+@s slaughtered a white Sheep
+@s slaughtered a green Sheep
+@s slaughtered a black Sheep
+@s slaughtered a yellow Sheep
+@s slaughtered a orange Sheep
+@s slaughtered a purple Sheep
+@s slaughtered a magenta Sheep
+@s slaughtered a light blue Sheep
+@s slaughtered a light gray Sheep
+```
+### baby sheeps
+```
+@s killed a red Baby Sheep
+@s killed a gray Baby Sheep
+@s killed a blue Baby Sheep
+@s killed a cyan Baby Sheep
+@s killed a lime Baby Sheep
+@s killed a pink Baby Sheep
+@s killed a white Baby Sheep
+@s killed a black Baby Sheep
+@s killed a brown Baby Sheep
+@s killed a green Baby Sheep
+@s killed a yellow Baby Sheep
+@s killed a orange Baby Sheep
+@s killed a purple Baby Sheep
+@s killed a magenta Baby Sheep
+@s killed a light blue Baby Sheep
+@s killed a light Baby gray Sheep
 ```
 ### pandas
 ```
 @s killed a Panda
-@s killed a Agressive Panda
-@s killed a Brown Panda
 @s killed a Lazy Panda
-@s killed a Playful Panda
 @s killed a Weak Panda
+@s killed a Brown Panda
 @s killed a Worried Panda
+@s killed a Playful Panda
+@s killed a Agressive Panda
 ```
 ### baby pandas
 ```
 @s killed a Baby Panda
-@s killed a Agressive Baby Panda
-@s killed a Brown Baby Panda
 @s killed a Lazy Baby Panda
-@s killed a Playful Baby Panda
 @s killed a Weak Baby Panda
+@s killed a Brown Baby Panda
 @s killed a Worried Baby Panda
+@s killed a Playful Baby Panda
+@s killed a Agressive Baby Panda
 ```
 ### cats
 ```
-@s slew a Tabby Cat
-@s slew a Tuxedo Cat
 @s slew a Red Cat
-@s slew a Siamese Cat
-@s slew a British Shorthair Cat
-@s slew a Calico Cat
-@s slew a Persian Cat
-@s slew a Ragdoll Cat
-@s slew a White Cat
-@s slew a Jellie Cat
+@s slew a Tabby Cat
 @s slew a Black Cat
+@s slew a White Cat
+@s slew a Tuxedo Cat
+@s slew a Calico Cat
+@s slew a Jellie Cat
+@s slew a Persian Cat
+@s slew a Siamese Cat
+@s slew a Ragdoll Cat
+@s slew a British Shorthair Cat
 ```
 ### baby cats
 ```
-@s slew a Tabby Kitten
-@s slew a Tuxedo Kitten
 @s slew a Red Kitten
-@s slew a Siamese Kitten
-@s slew a British Shorthair Kitten
+@s slew a Tabby Kitten
+@s slew a White Kitten
+@s slew a Black Kitten
+@s slew a Tuxedo Kitten
 @s slew a Calico Kitten
+@s slew a Jellie Kitten
+@s slew a Siamese Kitten
 @s slew a Persian Kitten
 @s slew a Ragdoll Kitten
-@s slew a White Kitten
-@s slew a Jellie Kitten
-@s slew a Black Kitten
+@s slew a British Shorthair Kitten
 ```
-### horses
+### Horses
 ```
-@s killed a White Horse
+@s killed a Mule
+@s killed a Donkey
+@s killed a Zombie Horse
+@s killed a Skeleton Horse
 @s killed a White Horse with white stockings
 @s killed a White Horse with white spots
 @s killed a White Horse with white dots
@@ -235,4 +407,45 @@ Experimental version of [Killfeed](https://github.com/LeonNikolai/Killfeed-Datap
 @s killed a Dark Brown Horse with white spots
 @s killed a Dark Brown Horse with white dots
 @s killed a Dark Brown Horse with black dots
+```
+### Baby Horses
+```
+@s killed a Baby Mule
+@s killed a Baby Donkey
+@s killed a Baby Zombie Horse
+@s killed a Baby Skeleton Horse
+@s killed a White Baby Horse with white stockings
+@s killed a White Baby Horse with white spots
+@s killed a White Baby Horse with white dots
+@s killed a White Baby Horse with black dots
+@s killed a Creamy Baby Horse
+@s killed a Creamy Baby Horse with white spots
+@s killed a Creamy Baby Horse with white stockings
+@s killed a Creamy Baby Horse with white dots
+@s killed a Creamy Baby Horse with black dots
+@s killed a Chestnut Baby Horse
+@s killed a Chestnut Baby Horse with white stockings
+@s killed a Chestnut Baby Horse with white spots
+@s killed a Chestnut Baby Horse with white dots
+@s killed a Chestnut Baby Horse with black dots
+@s killed a Brown Baby Horse
+@s killed a Brown Baby Horse with white stockings
+@s killed a Brown Baby Horse with white spots
+@s killed a Brown Baby Horse with white dots
+@s killed a Brown Baby Horse with black dots
+@s killed a Black Baby Horse
+@s killed a Black Baby Horse with white stockings
+@s killed a Black Baby Horse with white spots
+@s killed a Black Baby Horse with white dots
+@s killed a Black Baby Horse with black dots
+@s killed a Gray Baby Horse
+@s killed a Gray Baby Horse with white stockings
+@s killed a Gray Baby Horse with white spots
+@s killed a Gray Baby Horse with white dots
+@s killed a Gray Baby Horse with black dots
+@s killed a Dark Brown Baby Horse
+@s killed a Dark Brown Baby Horse with white stockings
+@s killed a Dark Brown Baby Horse with white spots
+@s killed a Dark Brown Baby Horse with white dots
+@s killed a Dark Brown Baby Horse with black dots
 ```

@@ -1,0 +1,23 @@
+{
+	"rewards": {
+		"function": "killfeed:illager/vindicator"
+	},
+	"criteria": {
+		"kill": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "vindicator",
+					"equipment": {
+						"head": {
+							"item": "minecraft:air"
+						}
+					}
+				},
+				"killing_blow": {
+					"is_projectile": "false"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "rewards": {
+      "function": "killfeed:pandas/panda.playful"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "panda",
+          "nbt": "{MainGene:playful}",
+          "flags": {
+            "is_baby": false
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "false"
+        }
+      }
+    }
+  }
+}

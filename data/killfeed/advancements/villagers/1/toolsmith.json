@@ -1,0 +1,19 @@
+{
+  "rewards": {
+    "function": "killfeed:villagers/1/toolsmith"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "villager",
+          "nbt": "{VillagerData:{profession: 'minecraft:toolsmith',level: 1}}"
+      },
+      "killing_blow": {
+        "is_projectile": "false"
+      }
+    }
+  }
+}
+}

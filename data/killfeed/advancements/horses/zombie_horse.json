@@ -1,0 +1,21 @@
+{
+  "rewards": {
+      "function": "killfeed:horses/zombie_horse"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombie_horse",
+          "flags": {
+            "is_baby": false
+          }
+        },
+        "killing_blow": {
+          "is_projectile": "false"
+        }
+      }
+    }
+  }
+}

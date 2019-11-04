@@ -1,0 +1,19 @@
+{
+  "rewards": {
+      "function": "killfeed:parrot/4"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "parrot",
+          "nbt": "{Variant:4}"
+        },
+        "killing_blow": {
+          "is_projectile": "false"
+        }
+      }
+    }
+  }
+}

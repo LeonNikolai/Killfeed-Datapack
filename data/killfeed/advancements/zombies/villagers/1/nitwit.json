@@ -1,0 +1,22 @@
+{
+  "rewards": {
+    "function": "killfeed:zombies/villagers/1/nitwit"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombie_villager",
+          "nbt": "{VillagerData:{profession: 'minecraft:nitwit'}}",
+          "flags": {
+              "is_baby": false
+          }
+      },
+      "killing_blow": {
+        "is_projectile": "false"
+      }
+    }
+  }
+}
+}

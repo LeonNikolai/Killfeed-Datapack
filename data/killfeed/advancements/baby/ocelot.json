@@ -1,0 +1,21 @@
+{
+  "rewards": {
+      "function": "killfeed:baby/ocelot"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+		  "type": "ocelot",
+		  "flags": {
+            "is_baby": true
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "false"
+        }
+      }
+    }
+  }
+}

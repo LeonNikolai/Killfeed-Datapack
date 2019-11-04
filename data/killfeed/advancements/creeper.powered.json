@@ -1,0 +1,19 @@
+{
+  "rewards": {
+      "function": "killfeed:creeper.powered"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "creeper",
+          "nbt": "{powered:1b}"
+        },
+        "killing_blow": {
+          "is_projectile": "false"
+        }
+      }
+    }
+  }
+}

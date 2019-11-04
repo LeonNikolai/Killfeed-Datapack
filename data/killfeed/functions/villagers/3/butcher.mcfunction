@@ -1,0 +1,2 @@
+advancement revoke @s only killfeed:villagers/3/butcher
+tellraw @a [{"selector":"@s"},{"text":" murdered a "},{"text":"Journeyman Butcher", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]

@@ -1,0 +1,22 @@
+{
+  "rewards": {
+      "function": "killfeed:sheep/sheep.gray"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "sheep",
+          "nbt": "{Color:7b}",
+          "flags": {
+            "is_baby": false
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "false"
+        }
+      }
+    }
+  }
+}
