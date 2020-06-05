@@ -1,0 +1,2 @@
+advancement revoke @s only killfeed:a_shot/villagers/1/butcher
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"red"},{"selector":"@s"},{"text":" shot a "},{"text":"Novice Butcher", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]

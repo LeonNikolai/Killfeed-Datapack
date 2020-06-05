@@ -1,0 +1,2 @@
+advancement revoke @s only killfeed:a_shot/elder_guardian
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"yellow"},{"selector":"@s"},{"text":" defeated a "},{"text":"Elder Guardian","color":"yellow"}]

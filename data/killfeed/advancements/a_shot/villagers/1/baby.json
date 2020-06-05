@@ -1,0 +1,21 @@
+{
+  "rewards": {
+    "function": "killfeed:a_shot/villagers/1/baby"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "villager",
+          "flags": {
+            "is_baby": true
+        }
+      },
+      "killing_blow": {
+        "is_projectile": "true"
+      }
+    }
+  }
+}
+}

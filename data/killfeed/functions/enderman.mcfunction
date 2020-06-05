@@ -1,2 +1,2 @@
 advancement revoke @s only killfeed:enderman
-tellraw @a [{"selector":"@s"},{"text":" killed a "},{"text":"Enderman"}]
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"green"},{"selector":"@s"},{"text":" killed a "},{"text":"Enderman"}]

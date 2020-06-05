@@ -1,0 +1,22 @@
+{
+  "rewards": {
+      "function": "killfeed:a_shot/fox"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+		  "type": "fox",
+		  "nbt": "{Type:'red'}",
+		  "flags": {
+            "is_baby": false
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "true"
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 # Killfeed-Datapack
-A datapack that add death messages for mobs. It does not only show the mobs name, but also details like appearance, age, type and profeesion. 
+A minecraft datapack that add death messages for mobs killed by players. It does not only show the mobs type, but also details like appearance, age, type and profeesion. 
 ### Features
 -	Death message for mobs killed by players
 -	Differentiates between
@@ -19,13 +19,16 @@ A datapack that add death messages for mobs. It does not only show the mobs name
 	- Panda Types and color
 	- Kills and Projectile Kills
 ### Working Versions
--	1.5 snapshots
--	1.14.x
--	less than 1.13 not supported
+-	1.16+
+-	1.15
+-	1.14
+-	partialy 1.13 ()
 # New Death Messages:
 Not all messages are listed, but most are.
-### Villagers
+### Villagers & Piglin
 ```
+[player] killed a Piglin
+[player] killed a Baby Piglin
 [player] murdered a Unemployed Villager
 [player] murdered a Baby Villager
 [player] murdered a Nitwit
@@ -105,7 +108,8 @@ Not all messages are listed, but most are.
 [player] killed a Zombie
 [player] killed a Husk
 [player] killed a Drowned
-[player] killed a Zombie Pigman
+[player] killed a Zombiefied Piglin
+[player] killed a Zoglin
 [player] killed a Zombie Villager
 [player] killed a Zombie Baby Villager
 [player] killed a Zombie Nitwit
@@ -127,7 +131,8 @@ Not all messages are listed, but most are.
 ```
 [player] killed a Baby Zombie
 [player] killed a Baby Zombie Villager
-[player] killed a Baby Zombie Pigman
+[player] killed a Baby Zombiefied Piglin
+[player] killed a Baby Zoglin
 [player] killed a Baby Husk
 [player] killed a Baby Drowned
 ```
@@ -196,6 +201,8 @@ Not all messages are listed, but most are.
 [player] killed a Red Fox
 [player] killed a Snow Fox
 [player] killed a Polar Bear
+[player] killed a Hoglin
+[player] killed a Strider
 [player] slaughtered a Pig
 [player] slaughtered a Cow
 [player] slaughtered a Chicken

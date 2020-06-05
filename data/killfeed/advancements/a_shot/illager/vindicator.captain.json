@@ -1,0 +1,24 @@
+{
+	"rewards": {
+		"function": "killfeed:a_shot/illager/vindicator.captain"
+	},
+	"criteria": {
+		"kill": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "vindicator",
+					"equipment": {
+						"head": {
+							"item": "minecraft:white_banner",
+							"nbt": "{BlockEntityTag:{Patterns:[{Color:9,Pattern:\"mr\"},{Color:8,Pattern:\"bs\"},{Color:7,Pattern:\"cs\"},{Color:8,Pattern:\"bo\"},{Color:15,Pattern:\"ms\"},{Color:8,Pattern:\"hh\"},{Color:8,Pattern:\"mc\"},{Color:15,Pattern:\"bo\"}]},display:{Name:\u0027{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}\u0027}}"
+						}
+					}
+				},
+				"killing_blow": {
+					"is_projectile": "true"
+				}
+			}
+		}
+	}
+}

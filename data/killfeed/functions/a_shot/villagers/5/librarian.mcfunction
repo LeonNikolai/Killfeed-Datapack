@@ -1,0 +1,2 @@
+advancement revoke @s only killfeed:a_shot/villagers/5/librarian
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"red"},{"selector":"@s"},{"text":" shot a "},{"text":"Master Librarian", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]

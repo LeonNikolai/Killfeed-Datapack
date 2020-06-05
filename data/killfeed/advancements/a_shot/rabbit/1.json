@@ -1,0 +1,22 @@
+{
+  "rewards": {
+      "function": "killfeed:a_shot/rabbit/1"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "rabbit",
+          "nbt": "{RabbitType:1}",
+          "flags": {
+            "is_baby": false
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "true"
+        }
+      }
+    }
+  }
+}

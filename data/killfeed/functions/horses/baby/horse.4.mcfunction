@@ -1,2 +1,2 @@
 advancement revoke @s only killfeed:horses/baby/horse.4
-tellraw @a [{"selector":"@s"},{"text":" killed a "},{"text":"Black Foal"}]
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"red"},{"selector":"@s"},{"text":" killed a "},{"text":"Black Foal"}]

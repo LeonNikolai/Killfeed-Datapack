@@ -1,1 +1,1 @@
-say Kill Feed Datapack Installed/ReLoaded
+tellraw @a [{"text":"KILL","bold":true},{"text":"☠", "bold":false,"color":"yellow"},{"text":"FEED"},{"text":" Datapack Installed/reloaded", "bold":false}]

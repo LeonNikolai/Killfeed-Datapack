@@ -1,0 +1,2 @@
+advancement revoke @s only killfeed:a_shot/villagers/3/armorer
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"red"},{"selector":"@s"},{"text":" shot a "},{"text":"Journeyman Armoerer", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]

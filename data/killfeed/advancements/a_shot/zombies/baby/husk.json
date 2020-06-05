@@ -1,0 +1,21 @@
+{
+  "rewards": {
+      "function": "killfeed:a_shot/zombies/baby/husk"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "husk",
+          "flags": {
+            "is_baby": true
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "true"
+        }
+      }
+    }
+  }
+}

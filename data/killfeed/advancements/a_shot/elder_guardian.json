@@ -1,0 +1,18 @@
+{
+  "rewards": {
+      "function": "killfeed:a_shot/elder_guardian"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "elder_guardian"
+        },
+        "killing_blow": {
+          "is_projectile": "true"
+        }
+      }
+    }
+  }
+}

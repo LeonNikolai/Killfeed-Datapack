@@ -1,0 +1,22 @@
+{
+  "rewards": {
+      "function": "killfeed:a_shot/cats/cat.4"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cat",
+          "nbt": "{CatType:4}",
+          "flags": {
+            "is_baby": false
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "true"
+        }
+      }
+    }
+  }
+}

@@ -1,2 +1,0 @@
-advancement revoke @s only killfeed:shot/villagers/1/weaponsmith
-tellraw @a [{"selector":"@s"},{"text":" shot and murdered a "},{"text":"Novice Weaponsmith", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]

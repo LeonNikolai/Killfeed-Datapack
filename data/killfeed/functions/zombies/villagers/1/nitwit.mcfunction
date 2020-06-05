@@ -1,2 +1,2 @@
 advancement revoke @s only killfeed:zombies/villagers/1/nitwit
-tellraw @a [{"selector":"@s"},{"text":" killed a "},{"text":"Zombie Nitwit", "hoverEvent":{"action":"show_text","value":[{"text":"Zombie Villager"}]}}]
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"green"},{"selector":"@s"},{"text":" killed a "},{"text":"Zombie Nitwit", "hoverEvent":{"action":"show_text","value":[{"text":"Zombie Villager"}]}}]

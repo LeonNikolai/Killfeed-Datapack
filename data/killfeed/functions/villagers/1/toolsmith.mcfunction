@@ -1,2 +1,2 @@
 advancement revoke @s only killfeed:villagers/1/toolsmith
-tellraw @a [{"selector":"@s"},{"text":" murdered a "},{"text":"Novice Toolsmith", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"red"},{"selector":"@s"},{"text":" murdered a "},{"text":"Novice Toolsmith", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]

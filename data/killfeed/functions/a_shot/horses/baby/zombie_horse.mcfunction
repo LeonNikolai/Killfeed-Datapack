@@ -1,0 +1,2 @@
+advancement revoke @s only killfeed:a_shot/horses/baby/zombie_horse
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"red"},{"selector":"@s"},{"text":" shot a "},{"text":"Zombie Foal","color":"yellow"}]

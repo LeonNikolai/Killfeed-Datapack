@@ -1,0 +1,18 @@
+{
+  "rewards": {
+      "function": "killfeed:a_shot/enderman"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "enderman"
+        },
+        "killing_blow": {
+          "is_projectile": "true"
+        }
+      }
+    }
+  }
+}

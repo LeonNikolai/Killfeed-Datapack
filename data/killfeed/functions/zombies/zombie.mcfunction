@@ -1,2 +1,2 @@
 advancement revoke @s only killfeed:zombies/zombie
-tellraw @a [{"selector":"@s"},{"text":" killed a "},{"text":"Zombie"}]
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"green"},{"selector":"@s"},{"text":" killed a "},{"text":"Zombie"}]

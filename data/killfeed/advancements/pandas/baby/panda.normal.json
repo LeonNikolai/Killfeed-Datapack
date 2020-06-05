@@ -1,0 +1,19 @@
+{"rewards": {"function": "killfeed:pandas/baby/panda.normal"},"criteria": {
+  
+"kill":                 {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "panda","flags": {"is_baby": true},"nbt": "{MainGene:normal}"}}},
+"kill.weak":            {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "panda","flags": {"is_baby": true},"nbt": "{MainGene:weak, HiddenGene:normal}"}}},
+"kill.brown":           {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "panda","flags": {"is_baby": true},"nbt": "{MainGene:brown, HiddenGene:normal}"}}},
+"kill.weak.aggressive": {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "panda","flags": {"is_baby": true},"nbt": "{MainGene:weak, HiddenGene:aggressive}"}}},
+"kill.weak.worried":    {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "panda","flags": {"is_baby": true},"nbt": "{MainGene:weak, HiddenGene:worried}"}}},
+"kill.weak.playful":    {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "panda","flags": {"is_baby": true},"nbt": "{MainGene:weak, HiddenGene:playful}"}}},
+"kill.weak.brown":      {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "panda","flags": {"is_baby": true},"nbt": "{MainGene:weak, HiddenGene:brown}"}}},
+"kill.weak.lazy":       {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "panda","flags": {"is_baby": true},"nbt": "{MainGene:weak, HiddenGene:lazy}"}}},
+"kill.brown.aggressive":{"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "panda","flags": {"is_baby": true},"nbt": "{MainGene:brown, HiddenGene:aggressive}"}}},
+"kill.brown.worried":   {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "panda","flags": {"is_baby": true},"nbt": "{MainGene:brown, HiddenGene:worried}"}}},
+"kill.brown.playful":   {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "panda","flags": {"is_baby": true},"nbt": "{MainGene:brown, HiddenGene:playful}"}}},
+"kill.brown.weak":      {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "panda","flags": {"is_baby": true},"nbt": "{MainGene:brown, HiddenGene:weak}"}}},
+"kill.brown.lazy":      {"trigger": "minecraft:player_killed_entity","conditions": {"entity": {"type": "panda","flags": {"is_baby": true},"nbt": "{MainGene:brown, HiddenGene:lazy}"
+
+}}}},"requirements": [
+["kill", "kill.weak", "kill.brown", "kill.weak.aggressive", "kill.weak.worried", "kill.weak.playful", "kill.weak.brown", "kill.weak.lazy", "kill.brown.aggressive", "kill.brown.worried", "kill.brown.playful", "kill.brown.weak", "kill.brown.lazy"]
+]}

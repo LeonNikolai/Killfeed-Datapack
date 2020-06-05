@@ -1,2 +1,2 @@
 advancement revoke @s only killfeed:red.mooshroom
-tellraw @a [{"selector":"@s"},{"text":" slaughtered a "},{"text":"Red Mooshroom"}]
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"white"},{"selector":"@s"},{"text":" slaughtered a "},{"text":"Red Mooshroom"}]

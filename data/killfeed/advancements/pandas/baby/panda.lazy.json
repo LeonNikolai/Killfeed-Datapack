@@ -1,0 +1,22 @@
+{
+  "rewards": {
+      "function": "killfeed:pandas/baby/panda.lazy"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "panda",
+          "nbt": "{MainGene:lazy}",
+          "flags": {
+            "is_baby": true
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "false"
+        }
+      }
+    }
+  }
+}

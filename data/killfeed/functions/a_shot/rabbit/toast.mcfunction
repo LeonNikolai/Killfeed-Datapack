@@ -1,0 +1,2 @@
+advancement revoke @s only killfeed:a_shot/rabbit/toast
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"red"},{"selector":"@s"},{"text":" killed Toast,"},{"text":" the rabbit of twitter user @xyZenTV","color":"blue", "hoverEvent":{"action":"show_text","value":"Twitter.com"},"clickEvent":{"action":"open_url","value":"https://twitter.com/xyzentv/status/474969697310343168"}}]

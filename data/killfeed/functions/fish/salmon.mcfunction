@@ -1,2 +1,2 @@
 advancement revoke @s only killfeed:fish/salmon
-tellraw @a [{"selector":"@s"},{"text":" killed a "},{"text":"Salmon"}]
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"white"},{"selector":"@s"},{"text":" killed a "},{"text":"Salmon"}]

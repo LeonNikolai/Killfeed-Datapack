@@ -1,2 +1,2 @@
 advancement revoke @s only killfeed:baby/rabbit/toast
-tellraw @a [{"selector":"@s"},{"text":" killed baby Toast,"},{"text":" the rabbit of twitter user @xyZenTV","color":"blue", "hoverEvent":{"action":"show_text","value":"Twitter.com"},"clickEvent":{"action":"open_url","value":"https://twitter.com/xyzentv/status/474969697310343168"}}]
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"red"},{"selector":"@s"},{"text":" killed baby Toast,"},{"text":" the rabbit of twitter user @xyZenTV","color":"blue", "hoverEvent":{"action":"show_text","value":"Twitter.com"},"clickEvent":{"action":"open_url","value":"https://twitter.com/xyzentv/status/474969697310343168"}}]

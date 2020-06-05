@@ -3,5 +3,5 @@ tag @a remove invisibility_spider
 tag @a remove strenght_spider
 tag @a remove speed_spider
 tag @a remove regeneration_spider
-tellraw @s [{"text":"[Kill Feed] removed player tags "}]
-tellraw @s [{"text":"[Kill Feed] To compleate the uninstall, remove killfeed from your datapack folder.", "color":"yellow"}]
+tellraw @a [{"text":"KILL","bold":true},{"text":"☠", "bold":false,"color":"yellow"},{"text":"FEED"},{"text":" Uninstalled}]
+tellraw @s [{"text":"To complete the uninstall remove kill feed from your datapack folder"}]

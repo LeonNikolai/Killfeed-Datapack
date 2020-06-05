@@ -1,0 +1,21 @@
+{
+  "rewards": {
+    "function": "killfeed:a_shot/horses/donkey"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "donkey",
+          "flags": {
+            "is_baby": false
+          }
+        },
+        "killing_blow": {
+          "is_projectile": "true"
+        }
+      }
+    }
+  }
+}

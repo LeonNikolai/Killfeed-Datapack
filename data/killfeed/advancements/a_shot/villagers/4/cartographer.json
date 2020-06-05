@@ -1,0 +1,19 @@
+{
+  "rewards": {
+    "function": "killfeed:a_shot/villagers/4/cartographer"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "villager",
+          "nbt": "{VillagerData:{profession: 'minecraft:cartographer',level: 4}}"
+      },
+      "killing_blow": {
+        "is_projectile": "true"
+      }
+    }
+  }
+}
+}

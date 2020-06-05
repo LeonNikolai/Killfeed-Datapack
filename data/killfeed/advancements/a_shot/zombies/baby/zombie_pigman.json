@@ -1,0 +1,21 @@
+{
+  "rewards": {
+      "function": "killfeed:a_shot/zombies/baby/zombie_pigman"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombie_pigman",
+          "flags": {
+            "is_baby": true
+        }
+        },
+        "killing_blow": {
+          "is_projectile": "true"
+        }
+      }
+    }
+  }
+}

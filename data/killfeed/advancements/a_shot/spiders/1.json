@@ -1,0 +1,22 @@
+{
+  "rewards": {
+      "function": "killfeed:a_shot/spiders/1"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "spider",
+          "effects": {
+            "minecraft:invisibility":{
+            }
+          }
+        },
+        "killing_blow": {
+          "is_projectile": "true"
+          }
+        }
+      }
+    }
+  }

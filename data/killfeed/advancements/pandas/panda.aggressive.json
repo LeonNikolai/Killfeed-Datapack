@@ -10,7 +10,7 @@
           "type": "panda",
           "nbt": "{MainGene:aggressive}",
           "flags": {
-            "is_baby": true
+            "is_baby": false
         }
         },
         "killing_blow": {

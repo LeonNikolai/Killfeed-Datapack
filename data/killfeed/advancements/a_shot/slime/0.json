@@ -1,0 +1,19 @@
+{
+  "rewards": {
+      "function": "killfeed:a_shot/slime/0"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "slime",
+          "nbt": "{Size:0}"
+        },
+        "killing_blow": {
+          "is_projectile": "true"
+        }
+      }
+    }
+  }
+}

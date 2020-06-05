@@ -1,0 +1,19 @@
+{
+  "rewards": {
+    "function": "killfeed:a_shot/villagers/3/fisherman"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "villager",
+          "nbt": "{VillagerData:{profession: 'minecraft:fisherman',level: 3}}"
+      },
+      "killing_blow": {
+        "is_projectile": "true"
+      }
+    }
+  }
+}
+}

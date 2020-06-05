@@ -1,0 +1,21 @@
+{
+  "rewards": {
+    "function": "killfeed:a_shot/villagers/1/none"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "villager",
+          "nbt": "{VillagerData:{profession:'minecraft:none'}}",
+        "flags": {
+            "is_baby": false
+        }},
+      "killing_blow": {
+        "is_projectile": "true"
+      }
+    }
+  }
+}
+}

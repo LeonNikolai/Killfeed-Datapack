@@ -1,0 +1,2 @@
+advancement revoke @s only killfeed:a_shot/horses/baby/skeleton_horse
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"red"},{"selector":"@s"},{"text":" shot a "},{"text":"Skeleton Foal","color":"yellow"}]

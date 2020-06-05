@@ -1,0 +1,22 @@
+{
+  "rewards": {
+    "function": "killfeed:a_shot/horses/baby/horse.770"
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "horse",
+          "nbt": "{Variant:770}",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "killing_blow": {
+          "is_projectile": "true"
+        }
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@
     "kill": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": {
+        "entity": { 
           "type": "panda",
           "nbt": "{MainGene:worried}",
           "flags": {

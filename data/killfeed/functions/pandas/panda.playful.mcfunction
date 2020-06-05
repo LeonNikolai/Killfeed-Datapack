@@ -1,2 +1,2 @@
 advancement revoke @s only killfeed:pandas/panda.playful
-tellraw @a [{"selector":"@s"},{"text":" killed a "},{"text":"Playful Panda"}]
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"red"},{"selector":"@s"},{"text":" killed a "},{"text":"Playful Panda"}]

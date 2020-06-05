@@ -1,0 +1,23 @@
+{
+	"rewards": {
+		"function": "killfeed:a_shot/illager/evoker"
+	},
+	"criteria": {
+		"kill": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "evoker",
+					"equipment": {
+						"head": {
+							"item": "minecraft:air"
+						}
+					}
+				},
+				"killing_blow": {
+					"is_projectile": "true"
+				}
+			}
+		}
+	}
+}

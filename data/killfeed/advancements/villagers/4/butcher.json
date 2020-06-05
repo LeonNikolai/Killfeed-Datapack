@@ -8,7 +8,7 @@
       "conditions": {
         "entity": {
           "type": "villager",
-          "nbt": "{VillagerData:{profession: 'minecraft:butcher',level: 4}}"
+          "nbt": "{VillagerData:{profession: 'minecraft:butcher',level: 4, type:}}"
       },
       "killing_blow": {
         "is_projectile": "false"

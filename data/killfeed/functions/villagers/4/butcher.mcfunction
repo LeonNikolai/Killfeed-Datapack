@@ -1,2 +1,2 @@
 advancement revoke @s only killfeed:villagers/4/butcher
-tellraw @a [{"selector":"@s"},{"text":" murdered a "},{"text":"Expert Butcher", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]
+tellraw @a [{"text":" "},{"text":"☠  ", "color":"red"},{"selector":"@s"},{"text":" murdered a "},{"text":"Expert Butcher", "hoverEvent":{"action":"show_text","value":[{"text":"Villager"}]}}]
