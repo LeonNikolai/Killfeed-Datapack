@@ -1,0 +1,1 @@
+{"rewards":{"function":"killfeed:fish/167838976"},"criteria":{"kill":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"nbt":"{Variant:167838976}","type":"tropical_fish"},"killing_blow":{"is_projectile":"false"}}}}}
