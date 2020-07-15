@@ -28,6 +28,7 @@ Not all messages are listed, but most are.
 ### Villagers & Piglin
 ```
 [player] killed a Piglin
+[player] killed a Piglin Brute
 [player] killed a Baby Piglin
 [player] murdered a Unemployed Villager
 [player] murdered a Baby Villager
