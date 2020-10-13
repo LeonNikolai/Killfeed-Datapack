@@ -11,7 +11,7 @@ A minecraft datapack that add death messages for mobs killed by players.
 1. click datapack in world creation
 2. click open pack folder
 3. Extract the datapack zip file or folder in the folder/window
-### Features
+## Features
 -	Death message for mobs killed by players
 -	Differentiates between
 	- Types of Tropical Fishes with offical names
@@ -29,11 +29,6 @@ A minecraft datapack that add death messages for mobs killed by players.
 	- Llama Types and color
 	- Panda Types and color
 	- Kills and Projectile Kills
-### Working Versions
--	1.16+
--	1.15
--	1.14
--	partialy 1.13
 # New Death Messages:
 Not all messages are listed, but most are.
 ### Villagers & Piglin
