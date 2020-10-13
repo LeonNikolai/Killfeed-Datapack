@@ -1,5 +1,16 @@
 # Killfeed-Datapack
-A minecraft datapack that add death messages for mobs killed by players. It does not only show the mobs type, but also details like appearance, age, type and profeesion. 
+A minecraft datapack that add death messages for mobs killed by players.
+
+[Download](https://github.com/LeonNikolai/Killfeed-Datapack/releases/latest)
+## Installation
+### Pre-existing world
+1. Extract the datapack zip file or folder into the datapack folder in your world files.<br>
+**Typical location**: `%appdata%\Roaming\.minecraft\saves\WORLDNAME\datapacks\DATAPACK.ZIP`
+2. type `/reload` when in game
+### New world
+1. click datapack in world creation
+2. click open pack folder
+3. Extract the datapack zip file or folder in the folder/window
 ### Features
 -	Death message for mobs killed by players
 -	Differentiates between
@@ -22,7 +33,7 @@ A minecraft datapack that add death messages for mobs killed by players. It does
 -	1.16+
 -	1.15
 -	1.14
--	partialy 1.13 ()
+-	partialy 1.13
 # New Death Messages:
 Not all messages are listed, but most are.
 ### Villagers & Piglin
