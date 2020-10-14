@@ -112,9 +112,11 @@ Not all messages are listed, but most are.
 ### Zombies
 ```
 [player] killed a Zombie
+[player] killed a Zombie Horse
 [player] killed a Husk
 [player] killed a Drowned
 [player] killed a Zombiefied Piglin
+[player] killed a Zombie Pigman (1.13-1.1 compatibility)
 [player] killed a Zoglin
 [player] killed a Zombie Villager
 [player] killed a Zombie Baby Villager
